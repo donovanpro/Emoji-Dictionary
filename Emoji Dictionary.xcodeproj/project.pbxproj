@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B12EFC861F48FDF800A87804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12EFC851F48FDF800A87804 /* AppDelegate.swift */; };
-		B12EFC881F48FDF800A87804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12EFC871F48FDF800A87804 /* ViewController.swift */; };
 		B12EFC8B1F48FDF800A87804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12EFC891F48FDF800A87804 /* Main.storyboard */; };
 		B12EFC8D1F48FDF800A87804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12EFC8C1F48FDF800A87804 /* Assets.xcassets */; };
 		B12EFC901F48FDF800A87804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12EFC8E1F48FDF800A87804 /* LaunchScreen.storyboard */; };
+		B12EFC9B1F4946FF00A87804 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12EFC9A1F4946FF00A87804 /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B12EFC821F48FDF800A87804 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12EFC851F48FDF800A87804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B12EFC871F48FDF800A87804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B12EFC8A1F48FDF800A87804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B12EFC8C1F48FDF800A87804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12EFC8F1F48FDF800A87804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12EFC911F48FDF800A87804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12EFC9A1F4946FF00A87804 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +38,9 @@
 		B12EFC791F48FDF800A87804 = {
 			isa = PBXGroup;
 			children = (
+				B12EFC971F490C5400A87804 /* Model */,
+				B12EFC981F490C5D00A87804 /* View */,
+				B12EFC991F490C6200A87804 /* Controller */,
 				B12EFC841F48FDF800A87804 /* Emoji Dictionary */,
 				B12EFC831F48FDF800A87804 /* Products */,
 			);
@@ -55,13 +58,34 @@
 			isa = PBXGroup;
 			children = (
 				B12EFC851F48FDF800A87804 /* AppDelegate.swift */,
-				B12EFC871F48FDF800A87804 /* ViewController.swift */,
 				B12EFC891F48FDF800A87804 /* Main.storyboard */,
 				B12EFC8C1F48FDF800A87804 /* Assets.xcassets */,
 				B12EFC8E1F48FDF800A87804 /* LaunchScreen.storyboard */,
 				B12EFC911F48FDF800A87804 /* Info.plist */,
 			);
 			path = "Emoji Dictionary";
+			sourceTree = "<group>";
+		};
+		B12EFC971F490C5400A87804 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B12EFC981F490C5D00A87804 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B12EFC991F490C6200A87804 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B12EFC9A1F4946FF00A87804 /* EmojiTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12EFC881F48FDF800A87804 /* ViewController.swift in Sources */,
+				B12EFC9B1F4946FF00A87804 /* EmojiTableViewController.swift in Sources */,
 				B12EFC861F48FDF800A87804 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
