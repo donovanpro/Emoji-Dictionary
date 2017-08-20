@@ -12,6 +12,7 @@
 		B12EFC8D1F48FDF800A87804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12EFC8C1F48FDF800A87804 /* Assets.xcassets */; };
 		B12EFC901F48FDF800A87804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12EFC8E1F48FDF800A87804 /* LaunchScreen.storyboard */; };
 		B12EFC9B1F4946FF00A87804 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12EFC9A1F4946FF00A87804 /* EmojiTableViewController.swift */; };
+		B12EFC9D1F4A0D9800A87804 /* EmojiDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12EFC9C1F4A0D9800A87804 /* EmojiDefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B12EFC8F1F48FDF800A87804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12EFC911F48FDF800A87804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B12EFC9A1F4946FF00A87804 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		B12EFC9C1F4A0D9800A87804 /* EmojiDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B12EFC9A1F4946FF00A87804 /* EmojiTableViewController.swift */,
+				B12EFC9C1F4A0D9800A87804 /* EmojiDefinitionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12EFC9B1F4946FF00A87804 /* EmojiTableViewController.swift in Sources */,
+				B12EFC9D1F4A0D9800A87804 /* EmojiDefinitionViewController.swift in Sources */,
 				B12EFC861F48FDF800A87804 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
